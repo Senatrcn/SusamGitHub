@@ -13,7 +13,7 @@ public class tests extends TestBase {
         // account menusunden create a list linkine tiklayalim
         driver.get("https://www.amazon.com");
         Actions actions=new Actions(driver);
-
+        System.out.println("Murat 1 commit");
         WebElement accountLinki= driver.findElement(By.xpath("//*[text()='Account & Lists']"));
         actions.moveToElement(accountLinki).perform();
 
