@@ -14,6 +14,7 @@ public class tests extends TestBase {
         driver.get("https://www.amazon.com");
         Actions actions=new Actions(driver);
         System.out.println("Murat 1 commit");
+        System.out.println("main degisiklik 1");
         WebElement accountLinki= driver.findElement(By.xpath("//*[text()='Account & Lists']"));
         actions.moveToElement(accountLinki).perform();
 
